@@ -1,0 +1,434 @@
+#dheader {
+	width: 770px;
+	height: 45px;
+	background-color: #7C76F5;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+.headerow {
+	z-index: 1;
+}
+.headercol {
+	float: left;
+}
+.headermsn {
+	float: left;
+	height: 18px;
+	width: 500px;
+	background-color: #7C76F5;
+	text-align:left;
+}
+
+
+#dmenu {
+	width: 765px;
+	background-color: #7C76F5;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	color: #D8D6FC;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin: 0px;
+	text-align:left;
+}
+#dmenu A{
+	display: inline;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 27px;
+	cursor: pointer;
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 12px;
+	color: #D8D6FC;
+	background-color: #7C76F5;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #7C76F5;
+	border-right-color: #7C76F5;
+	border-left-color: #F1F5DC;
+	border-bottom-width: 1px;
+	border-bottom-color: #7C76F5;
+	background-repeat: no-repeat;
+	background-position: 5px;
+}
+#dmenu A:hover{
+	border: 1px solid #D8D6FC;
+	display: inline;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 27px;
+	cursor: pointer;
+	background-color: #180FCA;
+	color: #D8D6FC;
+}
+#dmenu .mselect{
+	border: 1px solid #D8D6FC;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 27px;
+	cursor: pointer;
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 12px;
+	color: #180FCA;
+	background-color: #D8D6FC;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-image:url(../images/iactive.png);
+}
+#dmenu .iadmin{
+	background-image:url(../images/iadmin.png);
+}
+#dmenu .imaestros{
+	background-image:url(../images/imaestros.png);
+}
+#dmenu .imatriculas{
+	background-image:url(../images/imatriculas.png);
+}
+#dmenu .inotas{
+	background-image:url(../images/inotas.png);
+}
+#dmenu .ipagos{
+	background-image:url(../images/ipagos.png);
+}
+#dmenu .iasistencia{
+	background-image:url(../images/iasistencia.png);
+}
+#dmenu .iayuda{
+	background-image:url(../images/iayuda.png);
+}
+
+
+#dcontent {
+	width: 770px;
+	position: static;
+	background-color: #D8D6FC;
+	padding: 0px;
+	margin: 0px;
+	text-align:left;
+}
+#tcontent {
+	background-color: #D8D6FC;
+	/*#F1F5DC;  #9BAE5A */
+}
+
+
+#dsubmenu {
+	height: 405px;
+	margin: 5px;
+	border: 1px none #7C76F5;
+	width: 90px;
+	background-color: #D8D6FC;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#dsubmenu A{
+	display: inline;
+	cursor: pointer;
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 11px;
+	color: #180FCA;
+	background-repeat: no-repeat;
+	background-position: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 25px;	
+}
+#dsubmenu A:hover{
+	cursor: pointer;
+	text-decoration:none;
+	color: #D8D6FC;
+}
+#dsubmenu .iano_per{
+	background-image:url(../images/ichange.png);
+}
+#dsubmenu .iexit{
+	background-image:url(../images/iexit.png);
+}
+#dsubmenu .iestudiante{
+	background-image:url(../images/iestudiante.png);
+}
+#dsubmenu .idocente{
+	background-image:url(../images/idocente.png);
+}
+#dsubmenu .iplan{
+	background-image:url(../images/iplan.png);
+}
+#dsubmenu .icarrera{
+	background-image:url(../images/icarrera.png);
+}
+#dsubmenu .iano{
+	background-image:url(../images/iano.png);
+}
+#dsubmenu .iperiodo{
+	background-image:url(../images/iperiodo.png);
+}
+#dsubmenu .imodact{
+	background-image:url(../images/imodact.png);
+}
+#dsubmenu .imodnot{
+	background-image:url(../images/imodnot.png);
+}
+#dsubmenu .imodmat{
+	background-image:url(../images/imodmat.png);
+}
+#dsubmenu .igrupo{
+	background-image:url(../images/igrupo.png);
+}
+#dsubmenu .iingresante{
+	background-image:url(../images/iingresante.png);
+}
+#dsubmenu .iregular{
+	background-image:url(../images/iregular.png);
+}
+#dsubmenu .iedicion{
+	background-image:url(../images/iedicion.png);
+}
+#dsubmenu .icarga{
+	background-image:url(../images/icarga.png);
+}
+#dsubmenu .iaplazado{
+	background-image:url(../images/iaplazado.png);
+}
+#dsubmenu .inestudiante{
+	background-image:url(../images/inestudiante.png);
+}
+#dsubmenu .inacta{
+	background-image:url(../images/inacta.png);
+}
+#dsubmenu .ireport{
+	background-image:url(../images/ireport.png);
+}
+#dsubmenu .imespago{
+	background-image:url(../images/imespago.png);
+}
+#dsubmenu .iregpago{
+	background-image:url(../images/iregpago.png);
+}
+#dsubmenu .iregasis{
+	background-image:url(../images/iregasis.png);
+}
+
+.dcelmenu {
+	height: 15px;
+	margin: 0px;
+	vertical-align: middle;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dcelmenu:hover {
+	background-color: #7C76F5;
+}
+
+
+#dsubmessage {
+	height: 95px;
+	border: 1px dashed #CEE38C;
+	width: 80px;
+	overflow: auto;
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+#dsubcontent{
+	height: 400px;
+	padding: 5px;
+	border: 1px none #7C76F5;
+	margin-right: 5px;
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+.dboton {
+	height: 15px;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+	background-image:url(../images/boton.png);
+	margin-top: 5px;
+	float: left;
+	text-align:left;
+	margin-left: 5px;
+	background-color: #F2F1FE;
+}
+.dboton:hover {
+	background-color: #7C76F5;
+}
+.dboton .iok{
+	background-image:url(../images/iok.png);
+}
+.dboton .icancel{
+	background-image:url(../images/icancel.png);
+}
+.dboton .imodify{
+	background-image:url(../images/imodify.png);
+}
+.dboton .isave{
+	background-image:url(../images/isave.png);
+}
+.dboton .inew{
+	background-image:url(../images/inew.png);
+}
+.dboton .icontinue{
+	background-image:url(../images/icontinue.png);
+}
+.dboton .icurso{
+	background-image:url(../images/icurso.png);
+}
+.dboton .isearch{
+	background-image:url(../images/isearch.png);
+}
+.dboton .iprint{
+	background-image:url(../images/ireport.png);
+}
+.dboton .ireport{
+	background-image:url(../images/ireport.png);
+}
+.dboton A{
+	text-decoration: none;
+	color: #100A8D;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 30px;	
+	font-size: 12px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	text-align:center;
+}
+.dboton A:hover{
+	text-decoration: none;
+	color: #D8D6FC;
+}
+
+.tventana{
+	text-align: left;
+	color: #100A8D;
+	background-color: #FFFFFF;
+	margin-top: 2px;
+}
+.tventana TH{
+	padding-left: 5px;
+}
+.tviewdata{
+	color: #100A8D;
+	margin-top: 5px;
+}
+.tviewdata TD{
+	text-align: right;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+.tviewdata TH{
+	text-align: left;
+	border: 1px solid #D8D6FC;/*#7C76F5;*/
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	background-color: #FAFAFF;
+}
+.tlistsearch{
+	color: #100A8D;
+	margin-left: 3px;
+}
+.tlistsearch TD{
+	text-align: left;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D8D6FC;
+	border-left-color: #D8D6FC;
+}
+.tlistsearch TH{
+	text-align: center;
+	border: 1px solid #D8D6FC;
+	background-color: #D8D6FC;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+}
+
+.tlistdata{
+	color: #100A8D;
+	margin-left: 3px;
+}
+.tlistdata TD{
+	text-align: left;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D8D6FC;
+	border-left-color: #D8D6FC;
+}
+.tlistdata TH{
+	text-align: left;
+	border: 1px solid #D8D6FC;
+	background-color: #D8D6FC;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+}
+.tlistdata .tprimero{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D8D6FC;
+}
+
+#dfoot {
+	width: 760px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #7C76F5;
+	height: 15px;
+	padding-top: 1px;
+	margin: 0px;
+	font-size: 11px;
+	color: #D8D6FC;
+}
+
+
+
+#dresult{
+	text-align: center;
+	vertical-align: middle;
+}
